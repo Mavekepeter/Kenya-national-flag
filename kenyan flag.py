@@ -1,0 +1,13 @@
+import tkinter as tk
+window=tk.Tk()
+frame1=tk.Frame(master=window,height=100,bg="red")
+frame1.pack(fill=tk.X)
+frame2=tk.Frame(master=window,height=25,bg="white")
+frame2.pack(fill=tk.X)
+frame3=tk.Frame(master=window,height=100,bg="black")
+frame3.pack(fill=tk.X)
+frame4=tk.Frame(master=window,height=25,bg="white")
+frame4.pack(fill=tk.X)
+frame5=tk.Frame(master=window,height=100,bg="green")
+frame5.pack(fill=tk.X)
+window.mainloop()
